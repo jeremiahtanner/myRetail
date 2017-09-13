@@ -1,6 +1,6 @@
 # myRetail REST service
 Provides GET and PUT API to retrieve and set myRetail product data.
-## product API
+## Product API
 URL: https://jlt-target-case-study-myretail-proxy.azurewebsites.net/products/{id}
 
 Parameter: id  
@@ -25,3 +25,5 @@ Request body example:
 {"id":50581746,"current_price":{"value":"22.44","currency_code":"USD"}}
 ```
 
+## Technologies
+This service is hosted in Microsoft Azure. It makes use of the Function Apps serverless technology to implement the REST service. The run.csx file in this Github repository contains the C# code that the Function App serverless instance executes. This solution also makes use of Azure's Cosmos DB document database to store the price data for the products.
