@@ -32,5 +32,9 @@ This service is hosted in Microsoft Azure. It makes use of the Function Apps ser
 The service is publicly accessible via the URL provided above. You can use whatever HTTP request creation/execution app you would like. I used https://www.hurl.it to test.
 
 The following are ids that can be used for testing as they are populated in the pricing database and return data from the external api call:
+
 52568562
+50581746
+52310717
+52412055
 
