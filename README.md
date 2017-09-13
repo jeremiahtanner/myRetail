@@ -12,6 +12,6 @@ Returns JSON representing product information for the given id. The product name
 
 Response example:
 
-'''json
+```json
     {"id":50581746,"name":"Luminarc Assorted Craft Brew Glass Set - 6pc","current_price":{"value":"22.44","currency_code":"USD"}}
-'''
+```
