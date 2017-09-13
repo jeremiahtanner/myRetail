@@ -27,3 +27,10 @@ Request body example:
 
 ## Technologies
 This service is hosted in Microsoft Azure. It makes use of the Function Apps serverless technology to implement the REST service. The run.csx file in this Github repository contains the C# code that the Function App serverless instance executes. This solution also makes use of Azure's Cosmos DB document database to store the price data for the products.
+
+## How To Test
+The service is publicly accessible via the URL provided above. You can use whatever HTTP request creation/execution app you would like. I used https://www.hurl.it to test.
+
+The following are ids that can be used for testing as they are populated in the pricing database and return data from the external api call:
+52568562
+
